@@ -1,0 +1,13 @@
+{
+    "name": "quallsbenson/olr",
+    "description": "olr feed search object",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+      "psr-0": {
+        "Olr": ""
+      }
+    },
+    "target-dir": "Olr"
+}
