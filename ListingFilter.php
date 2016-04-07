@@ -610,3 +610,11 @@ class ListingFilter{
     }
 
 }
+
+function text_match_percent( $text, $compare ){
+
+    $percent = null;
+    similar_text( $text, $compare, $percent );
+    return $percent;
+
+}
