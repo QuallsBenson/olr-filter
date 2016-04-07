@@ -12,19 +12,19 @@ class ListingFilter{
               **/
 
 
-              $search_param_options = array("type"                  => "string", 
-                                              "sale_type"            => "string", 
-                                              "min_price"            => "float",
-                                              "max_price"            => "float",
-                                              "min_sq_feet"          => "int",
-                                              "max_sq_feet"          => "int",
-                                              "min_bathroom_count" => "float",
-                                              "max_bathroom_count" => "float",
-                                              "min_bedroom_count"  => "int",
-                                              "max_bedroom_count"  => "int",
-                                              "neighborhood"         => "array",
-                                              "borough"             => "string",
-                                              "id"                 => "string");
+              $search_param_options = array("type"               => "string", 
+                                            "sale_type"          => "string", 
+                                            "min_price"          => "float",
+                                            "max_price"          => "float",
+                                            "min_sq_feet"        => "int",
+                                            "max_sq_feet"        => "int",
+                                            "min_bathroom_count" => "float",
+                                            "max_bathroom_count" => "float",
+                                            "min_bedroom_count"  => "int",
+                                            "max_bedroom_count"  => "int",
+                                            "neighborhood"       => "array",
+                                            "borough"            => "string",
+                                            "id"                 => "string");
 
 
 
