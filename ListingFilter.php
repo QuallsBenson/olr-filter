@@ -98,7 +98,7 @@ class ListingFilter{
     function check_neighborhood($listing, $search_neighborhoods){
 
         // if(empty($search_neighborhoods)) return true;
-        if(empty($search_neighborhoods) || @$search_neighborhoods[0] == 0) return true;
+        if(empty($search_neighborhoods)) return true;
 
         //get the listing neighborhood
         $l_neighborhood = strtolower(trim($listing->location->neighborhood));
